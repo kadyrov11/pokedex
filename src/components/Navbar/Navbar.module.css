@@ -1,0 +1,31 @@
+.appBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    padding: 10px 20px;
+
+    background-color: #ad36d4;
+}
+
+.heading{
+    color: #fff;
+}
+
+.img{
+    height: 30px;
+    margin-left: 10px;
+    vertical-align: bottom;
+}
+
+.navItems{
+    color: #fff;
+}
+
+.navItems:not(:last-child){
+    margin-right: 20px;
+}

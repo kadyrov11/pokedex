@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  padding-top: 80px;  
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

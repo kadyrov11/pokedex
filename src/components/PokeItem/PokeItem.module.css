@@ -1,0 +1,21 @@
+.pokemon{
+    height: 320px;
+    width: 270px;
+    border: 2px solid #ad36d4;
+    border-radius: 5px;
+    text-align: center;
+}
+.pokemon:not(:nth-child(-n+4)){
+    margin-top: 10px;
+}
+.pokemon:not(:nth-child(4n)){
+    margin-right: 10px;
+}
+
+
+.pokeImg{
+    height: 80%;
+}
+.pokeName{
+    color: #000;
+}
